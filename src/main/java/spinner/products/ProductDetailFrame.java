@@ -10,13 +10,13 @@ public class ProductDetailFrame extends JFrame
 {
     private Product product;
 
-    public ProductDetailFrame (Product product) {
+    public ProductDetailFrame(Product product) {
         this.product = product;
 
         setTitle(product.title);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setSize(800, 600);
-        setLayout(new BorderLayout(10,10));
+        setLayout(new BorderLayout(10, 10));
 
         //image panel
         JPanel imagePanel = new JPanel(new BorderLayout());
