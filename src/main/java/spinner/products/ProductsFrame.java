@@ -6,7 +6,7 @@ import java.awt.*;
 public class ProductsFrame extends JFrame {
     //build the frame in grid layout
     private JLabel[] labels = new JLabel[9];
-    ProductsController controller;
+    private ProductsController controller;
 
     public ProductsFrame()
     {
